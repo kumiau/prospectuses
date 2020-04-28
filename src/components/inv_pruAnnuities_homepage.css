@@ -1,0 +1,239 @@
+/* CSS Document */
+/***********************************************/
+/* pruAnnuities_homepage.css                             */
+/* Use for client and FP sites          */
+/* last modified :::  05-22-2007                       */
+/***********************************************/
+
+
+/************* HOME PAGE STYLES **************/
+/*********************************************/
+
+#navigation_home{padding-bottom:15px;}
+
+
+
+#left_home{
+	width:134px;
+	background:url(/media/system/cda/pruanninv/inv_links_bg.gif) repeat-y top right;
+	padding:0 15px 0 0;
+}
+
+#middle_home{
+	width:366px;
+	padding:0 0 0 15px;
+	margin:0 42px 0 0;
+}
+
+#right_home{
+	width:214px;
+}
+
+
+
+
+
+
+
+
+#left_home h1,#left_home_span h1{font-size: 19px;margin: 10px 0px 20px 0px;}
+
+#left_home h2, #left_home_span h2{font-size: 15px;margin: 10px 0px 6px 0px;}
+
+#left_home h3, #left_home_span h3{font-size: 13px;margin: 10px 0px 4px 0px;}
+
+#left_home h4, #left_home_span h4{font-size: 12px;margin: 10px 0px 2px 0px;}
+
+#left_home h5, #left_home_span h5{font-size: 11px;margin: 10px 0px 2px 0px;}
+
+#left_home h6, #left_home_span h6{font-size: 10px; margin: 10px 0px 2px 0px;}
+
+#left_home h7, #left_home_span h7{font-size: 10px; margin: 10px 0px 2px 0px;}
+
+#left_home h1,#left_home h2,#left_home h3,#left_home h4,#left_home h5,#left_home h6,#left_home h7,#left_home_span h1,#left_home_span h2,#left_home_span h3,#left_home_span h4,#left_home_span h5,#left_home_span h6,#left_home_span h7 {
+	padding: 0px;
+	color: #334d55;
+}
+
+
+#left_home a,#left_home a:visited{text-decoration:underline;}
+#left_home a,#left_home a:hover{text-decoration:none;}
+
+#sl_home{
+	float:left;
+	width:352px;
+	padding:0 0 0 0;
+	margin:0 10px 0 0;
+	border-bottom:1px dotted #ccc;
+}
+
+#sl_home img.thumb{
+	float:left; margin:0 5px 0 0;
+}
+
+#sl_home .text{float:left; width:70%;}
+
+#sl_home .text a{float:none; margin:0; padding:0;text-decoration:underline;}
+#sl_home .text a:hover{text-decoration:underline;}
+
+/*********** RELATED LINK BOX styles ***********/
+
+#left_home .relatedLinks{
+	width:134px;
+	padding:0;
+	background-color:#fff;
+	border:none;
+	
+
+	margin:0 0 5px 0;
+	line-height:14px;
+}
+
+#right_home .cta_home{
+	width:214px;
+	padding: 0;
+	background-color:#fff;
+	border:none;
+	float:left;
+	clear:both;
+	margin:0 0 15px 0;
+}
+
+#right_home .cta_home a#cta1{
+/*	background:url(/media/managed/btn_cta_illustration.gif) top left no-repeat;
+*/	background:url(/media/managed/btn_cta_illustration.gif) top left no-repeat;
+	height:26px;
+	display:block;
+}
+
+#right_home .cta_home a:hover#cta1{
+/*	background:url(/media/managed/btn_cta_illustration.gif) bottom left no-repeat;
+*/	background:url(/media/managed/btn_cta_illustration.gif) bottom left no-repeat;
+}
+
+#right_home .cta_home a#cta2{
+/*	background:url(/media/managed/btn_cta_forms.gif) top left no-repeat;
+*/	background:url(/media/managed/btn_cta_forms.gif) top left no-repeat;
+	height:26px;
+	display:block;
+}
+#right_home .cta_home a:hover#cta2{
+/*	background:url(/media/managed/btn_cta_forms.gif) bottom left no-repeat;
+*/	background:url(/media/managed/btn_cta_forms.gif) bottom left no-repeat;
+}
+
+
+#right_home .cta_home a#cta3{
+/*	background:url(/media/managed/btn_cta_calculators.gif) top left no-repeat;
+*/	background:url(/media/managed/btn_cta_calculators.gif) top left no-repeat;
+	height:26px;
+	display:block;
+}
+
+#right_home .cta_home a:hover#cta3{
+/*	background:url(/media/managed/btn_cta_calculators.gif) bottom left no-repeat;
+*/	background:url(/media/managed/btn_cta_calculators.gif) bottom left no-repeat;
+}
+
+
+
+
+#left_home .relatedLinks h3{
+	font-size:12px;
+	color:#333333;
+	background-color:#fff;
+	margin:0 0 8px 0;
+	padding:8px 0 8px 0;
+}
+
+#left_home .relatedLinks p{
+	padding:4px 0 4px 0;
+}
+
+#left_home .relatedLinks .linklist{padding:0; }
+#left_home .relatedLinks a,#left_home .relatedLinks a:visited{width:126px;float:left;margin:0 0 4px 0;padding:0 0 0 8px;background:url(/media/system/cda/pruanninv/icon_bullet.gif) no-repeat top left;}
+#left_home .relatedLinks a:hover{background:url(/media/system/cda/pruanninv/icon_bullet.gif) no-repeat top left;}
+
+#middle_home .linkList p{width:360px;float:left; clear:both;margin:0 0 4px 0;padding:0 0 0 8px;background:url(/media/system/cda/pruanninv/icon_bullet.gif) no-repeat top left;}
+
+#middle_home a,#middle_home a:visited{text-decoration:underline;}
+#middle_home a,#middle_home a:hover{text-decoration:none;}
+
+#right_home .cta_box{
+
+	border:1px solid #cbe2f0;
+	width:188px;
+	padding: 10px;
+	background-color:#e7f4fc;
+	float:left;
+	clear:both;
+	margin:0 0 20px 0;
+	line-height:14px;
+}
+
+
+
+#right_home .cta_box h3{
+	font-size:11px;
+	color:#000;
+	background:none;
+	margin:0 0 8px 0;
+	padding:0;
+}
+
+#right_home .cta_box p{
+	padding:4px 8px 4px 8px;
+}
+
+#right_home .cta_box .linklist{padding:4px 8px 4px 8px; }
+#right_home .cta_box a,#right_home .cta_box a:visited{float:left;clear:both;margin:0 0 6px 10px;padding:0 0 0 8px;background:url(/media/system/cda/pruanninv/icon_bullet.gif) no-repeat top left;}
+#right_home .cta_box a:hover{background:url(/media/system/cda/pruanninv/icon_bullet.gif) no-repeat top left;}
+
+#right_home .cta_box hr{clear:both;margin:8px 0 8px 0;}
+
+/*********** NEWS styles ***********/
+
+#news_container{
+	width:540px;
+	clear:both;
+	margin:25px 0 20px 0;
+}
+
+#news_container h2{
+	width:530px;
+	background:url(/media/system/cda/pruanninv/home_news_hdr_bg.gif) top left repeat-x;
+	height:27px;
+	font-size: 14px;
+	margin: 0 0 10px 0;
+	padding:0 0 0 8px;
+	color:#333;
+	line-height:22px;
+	font-weight:bold;
+}
+
+#news_container .linkList{width:524px;padding:4px 8px 4px 8px;line-height:15px;}
+#news_container .linkList a,#news_container .linkList a:visited{width:95%;float:left;clear:both;margin:0 0 4px 0px;padding:0 0 0 12px;background:url(/media/system/cda/pruanninv/icon_bullet_dbl.gif) no-repeat top left;}
+#news_container .linkList a:hover{background:url(/media/system/cda/pruanninv/icon_bullet_dbl.gif) no-repeat top left;}
+
+
+
+
+
+/**********************************************/
+/*********************************************/
+#footer_nav,
+#footer_nav a,
+#footer_nav a:visited {
+ background-color: #0279BE;
+}
+#footer_nav a:focus {
+ color:#FF3;
+ text-decoration: underline;
+}
+
+
+/* CIEN */ 
+table.data2 tbody tr:nth-child(odd) {
+   background-color: #ecf3fa;
+}
+

@@ -1,0 +1,677 @@
+body{
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size:13px;
+	color: #333333;
+	line-height: 18px;	
+	padding: 0px;
+	background:#fff;
+	margin:0;
+}
+
+#container{
+	width:776px;
+	margin:0 auto 0 auto;
+}
+
+a:link, a:visited, a:hover {
+	color: #007bc1;
+	text-decoration: none;
+}
+
+a:hover {
+	color:#FF6600;
+	text-decoration: underline;
+}
+
+a.listedLinks:link, a.listedLinks:visited{
+	color: #007bc1;
+	text-decoration: underline;
+}
+
+a.listedLinks:hover {
+	color:#FF6600;
+	text-decoration: underline;
+}
+
+.image {
+padding: 0 9px 9px 0;
+}
+
+
+ul{
+ list-style-type: square;
+}
+
+ul ul{
+ list-style-type: disc;
+}
+
+ul ul ul{
+ list-style-type: none;
+}
+
+label{
+	font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 11px; 
+ color: #334d55;
+}
+
+input{font-size:12px;margin:0;padding:2px;}
+
+p{margin-bottom:15px;margin-top:0;padding-top:0px;}
+
+sup{font-size: 11px; font-weight:bold;font-weight:normal;}
+
+hr{color:#D1E1F3;border-width:thin; border-style:dotted;margin:0;padding:0;}
+
+select{font-size:11px;margin:0;padding:0;}
+
+
+/* overrides decoration from previous rule for hovered links */
+
+
+
+
+/***********************************************/
+/* Layout Divs                                 */
+/***********************************************/
+
+#pageHeader{
+	margin: 0;
+	padding: 0;
+	width: 776px;
+}
+#banner{padding:0;margin:0;}
+
+#navigation{padding-bottom:5px;}
+#secondary_nav{padding-bottom:15px;}
+
+/* BREADCRUMB */
+
+
+#secondary_nav{padding-bottom:15px;}
+
+#breadCrumb{
+	width:570px;
+	float:left;
+	padding: 0px 10px 0px 0px;
+	color:#334d55;
+	font-size: 12px;
+}
+
+#breadCrumb_span{
+	width:776px;
+	float:left;
+	padding: 0px 10px 0px 0px;
+	color:#334d55;
+}
+#breadCrumb a {padding: 0; margin: 0 5px; }
+#breadCrumb .active{font-weight: bold; padding: 0 4px; margin: 0;}
+
+
+#printPage{float:right;width:150px;text-align:right;height:13px;}
+#printPage a,#printPage a:visited{padding-left:24px;background:url(/media/system/cda/pruanninv/icon_printfriendly.gif) no-repeat top left;}
+#printPage a:hover{background:url(/media/system/cda/pruanninv/icon_printfriendly.gif) no-repeat bottom left;}
+
+#content{width:776px;padding-bottom:25px;}
+
+#primary,#left{
+	padding-right:20px;
+}
+
+
+#primary a,#primary_span a,#left a,#left_span a, #content TABLE TR TD a{text-decoration:underline;}
+#primary  a:hover,#primary_span  a:hover,#left a:hover,#left_span a:hover, #content TABLE TR TD a:hover {text-decoration:none;}
+
+
+/***********************************************/
+/*Component Divs                               */
+/***********************************************/
+#siteTools{
+	float:right;
+}
+
+#corpLogo_inv{
+	float:left;
+	margin: 20px 0 0 0;
+	padding: 0;
+}
+
+
+#corpLogo{
+	float:left;
+	margin: 10px 0 0 0;
+	padding: 0;
+}
+
+
+
+/************* #globalNav styles **************/
+
+#globalNav{
+color: #cccccc;
+padding: 0px 0px 10px 0px;
+white-space: nowrap;
+}
+/* 'nowrap' prevents links from line-wrapping if there are too many to fit in one line
+   this will force a horizontal scrollbar if there isn't enough room for all links
+   remove rule or change value to 'normal' if you want the links to line-wrap */
+
+#globalNav img{
+ display: block;
+}
+
+#globalNav a {
+	font-size: 10px;
+	text-transform:uppercase;
+	padding: 0px 4px 0px 0px; 
+}
+
+
+
+#fpEnter{text-align:right; margin:0 0 5px 0;}
+
+
+
+/************** FORM styles ***************/
+form .input_fld{background-color:#FFC;border:1px solid #ccc}
+form .input_text{color:#2570AD}
+form label{font-weight:bold}
+form label span{color:#F00}
+form.fill_form{border-bottom:3px double #FDEDBB;border-top:3px double #FDEDBB;clear:both;display:block;padding:6px 0 0 0}
+form.fill_form input .input_fld{background-color:#FFC;border:1px solid #ccc;margin:0;padding:0}
+form.fill_form table td.label{text-align:left;width:40%}
+form.fill_form table td.label{text-align:left;width:40%}
+form.fill_form td{vertical-align:middle}
+form.fill_form th{text-align:left;vertical-align:middle}
+
+/************** HEADLINE STYLES ***************/
+#primary h1,#primary h2,#primary h3,#primary h4,#primary h5,#primary h6,#primary h7,#primary_span h1,#primary_span h2,#primary_span h3,#primary_span h4,#primary_span h5,#primary_span h6,#primary_span h7 {
+	padding: 0px;
+	color: #334d55;
+}
+
+#left h1,#left h2,#left h3,#left h4,#left h5,#left h6,#left h7,#left_span h1,#left_span h2,#left_span h3,#left_span h4,#left_span h5,#left_span h6,#left_span h7 {
+	padding: 0px;
+	color: #334d55;
+}
+
+#primary h1,#primary_span h1, #content TABLE TR TD h1{font-size: 19px;margin: 10px 0px 20px 0px;}
+
+#primary h2, #primary_span h2{font-size: 15px;margin: 10px 0px 6px 0px;}
+
+#primary h3, #primary_span h3{font-size: 13px;margin: 10px 0px 4px 0px;}
+
+#primary h4, #primary_span h4{font-size: 12px;margin: 10px 0px 2px 0px;}
+
+#primary h5, #primary_span h5{font-size: 11px;margin: 10px 0px 2px 0px;}
+
+#primary h6, #primary_span h6{font-size: 10px; margin: 10px 0px 2px 0px;}
+
+#primary h7, #primary_span h7{font-size: 10px; margin: 10px 0px 2px 0px;}
+
+
+#left h1,#left_span h1{font-size: 19px;margin: 10px 0px 20px 0px;}
+
+#left h2, #left_span h2{font-size: 15px;margin: 10px 0px 6px 0px;}
+
+#left h3, #left_span h3{font-size: 13px;margin: 10px 0px 4px 0px;}
+
+#left h4, #left_span h4{font-size: 12px;margin: 10px 0px 2px 0px;}
+
+#left h5, #left_span h5{font-size: 11px;margin: 10px 0px 2px 0px;}
+
+#left h6, #left_span h6{font-size: 10px; margin: 10px 0px 2px 0px;}
+
+#left h7, #left_span h7{font-size: 10px; margin: 10px 0px 2px 0px;}
+
+
+/************* BODY CALL-TO-ACTION STYLES AND DOCUMENT DOWNLOADS ***************/
+#cta_btm{margin-top:20px}
+#cta_top{margin-bottom:20px}
+#cta_top li a,#cta_btm li a{margin:0;padding:0}
+#cta_top li,#cta_btm li{background-image:url(/media/system/cda/pruannfp/icon_bullet.gif);background-position:0 .2em;background-repeat:no-repeat;display:block;line-height:15px;margin:0 0 3px 0;padding:.2em 0 .2em .8em;vertical-align:middle}
+#cta_top p{margin:4px 0 4px 5px;vertical-align:middle}
+#cta_top p img{vertical-align:top}
+#cta_top ul,#cta_btm ul{list-style-type:none;margin:0;padding:0}
+#cta_top,#cta_btm{background-color:#F2F2F2;border-bottom:1px solid #CECECE;border-top:1px solid #CECECE;padding:8px 10px 5px 5px;width:505px}
+
+/************* GENERIC TEXT STYLES ***************/
+.footnotes{color:#666666; margin-top:20px;float:left;}
+.required{color:#ff0000;font-weight:bold;}
+
+/************* #search styles ***************/
+#search{padding:5px 0px 5px 10px;text-align:right}
+#search form{margin:0px;padding:0px}
+#search label{display:block;margin:0px;padding:0px}
+
+/*********** RELATED LINK BOX styles ***********/
+#right H3 {
+	background: #2799DD;
+	border-left: 1px solid #ADD4EC;
+	border-right: 1px solid #ADD4EC;
+	color: #FFF;
+	font-size: 11px;
+	font-weight: 900;
+	line-height: 18px;
+	margin: 0;
+	padding: 9px 8px;
+}
+
+.sidebar {
+	background-color: #ECF3FA;
+	border-bottom: 1px solid #D6E9F4;
+	border-left: 1px solid #D6E9F4;
+	border-right: 1px solid #D6E9F4;
+	font: 11px Verdana,Arial,Helvetica,sans-serif;
+	line-height: 17px;
+	margin: 0 0 20px 0;
+	padding: 6px 11px 11px 11px;
+}
+
+.sidebar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 5px 0 0 0;
+}
+
+.sidebar li {
+	background-image: url(/media/system/cda/pruanninv/icon_bullet.gif);
+	background-position: 0 .25em;
+	background-repeat: no-repeat;
+	display: block;
+	line-height: 18px;
+	margin: 0 0 3px 0;
+	padding: 0 0 0 .8em;
+	vertical-align: middle;
+}
+
+.sidebar li a {
+	margin: 0;
+	padding: 0;
+}
+
+.sidebar .title, .sidebar .description {
+	display: block;
+	margin: 0 0 2px 0;
+	padding: 0;
+}
+
+.sidebar .title {
+	font-weight: 900;
+}
+
+#right .sidebar .image {
+	border: none;
+	display: inherit;
+	line-height: 17px;
+	padding-left: 5px;
+	position: relative;
+	top: 2px;
+	vertical-align: baseline;
+	padding:0 0 0 3px;
+	margin:0;
+}
+
+.sidebar a.more {
+	display: block;
+	font-weight: 900;
+	padding: 5px 0 0 0;
+}
+
+.relatedLinks {
+	background-color: #ECF3FA;
+	border: 1px solid #D6E9F4;
+	clear: both;
+	float: left;
+	line-height: 14px;
+	margin: 0px;
+	margin-bottom: 20px;
+	padding: 0px 0px 15px 0px;
+	width: 234px;
+}
+
+.relatedLinks h3 {
+	background-color: #2799DD;
+	color: #fff;
+	font-size: 11px;
+	margin: 0 0 8px 0;
+	padding: 8px;
+}
+
+.relatedLinks p {
+	padding: 4px 8px;
+}
+
+.relatedLinks .linklist {
+	padding: 4px 8px;
+}
+
+.relatedLinks a,.relatedLinks a:visited {
+	background: url(/media/system/cda/pruanninv/icon_bullet.gif) no-repeat top left;
+	clear: both;
+	float: left;
+	margin: 0 0 6px 10px;
+	padding: 0 0 0 8px;
+	width: 208px;
+}
+
+.relatedLinks a:hover {
+	background: url(/media/system/cda/pruanninv/icon_bullet.gif) no-repeat top left;
+}
+
+
+/************* FOOTER STYLES ******************/
+#footer {width:776px;}
+#footer_nav,.footer_nav{ text-transform:uppercase;background-color:#4aa4d9;color:#83c4eb;font-size:10px;text-align:center;margin:1px 0 15px;padding:8px 0}
+#legalDiv,.legalDiv,.tier01{color:#949494;margin-bottom:10px;font:11px Arial,Verdana,Helvetica,sans-serif}
+#legalDiv2,.legalDiv2{color:#333;margin-bottom:11px;font:11px Verdana,Arial,Helvetica,sans-serif}
+#legalDiv3,.legalDiv3{background-color:#F2F2F2;border:1px solid #CCC;color:#333;margin-bottom:11px;font:11px Verdana,Arial,Helvetica,sans-serif}
+.legal{font-size:11px;color:#AFAFAF;text-decoration:none;line-height:14px}
+TABLE.legalShadedTable{background-color:#F2F2F2;border:1px solid #CCC;color:#949494}
+TD.legalCell{background-color:#F2F2F2;font:11px Arial,Verdana,Helvetica,sans-serif;text-align:center;padding:0}
+TD.legalMiddleCell{background-color:#F2F2F2;border-left:solid 1px #CCC;border-right:solid 1px #CCC;font:11px Arial,Verdana,Helvetica,sans-serif;text-align:center}
+#footer_nav a,#footer_nav a:visited{color:#FFF;text-decoration:none;background-color:#4aa4d9;}
+#footer_nav a:hover{color:#FF3;text-decoration:underline}
+a.legal,a.legal:visited{color:#316DB8;text-decoration:none}
+a.legal:hover{color:#519507;text-decoration:underline}
+
+
+/*********** DATA TABLE styles ***********/
+table.data{background-color:#ECF3FA;border:1px solid #D6E9F4;line-height:14px}
+table.data{font-size:10px}
+table.data .actions{color:#333;padding:3px;text-align:right}
+table.data .hd1{background-color: #2799DD;color:#333;font-size:11px;padding:6px;text-align:left}
+table.data .hd2{background-color:#DAEBFC;color:#333;padding:2px;text-align:left}
+table.data .hd3{background-color:#DAEBFC;color:#27618F;padding:2px;text-align:left}
+table.data .lite{background-color:#FDEDBB}
+table.data th{border:1px solid #fff;color:#27618F;margin:0;text-align:center;vertical-align:top}
+table.data tr{border:1px solid #fff;color:#000;margin:0;text-align:left;vertical-align:top}
+table.data tr td{border:1px solid #fff;padding:6px;vertical-align:top}
+
+table.data2{border-bottom:1px solid #D6E9F4;font-size:11px;line-height:14px;padding:6px;table-layout:fixed}
+table.data2 .hd1{background-color:#fff;border-bottom:1px solid #D6E9F4;color:#333;font-size:11px;padding:6px 6px 6px 0;text-align:left}
+table.data2 .hd2{background-color: #2799DD;border:1px solid #fff;color:#fff;padding:2px;text-align:left}
+table.data2 .lite{background-color:#ECF3FA;border:1px solid #fff}
+table.data2 th{border-bottom:1px solid #D6E9F4;color:#27618F;margin:0;vertical-align:top}
+table.data2 tr{color:#000;margin:0;text-align:left;vertical-align:top}
+table.data2 tr td{padding:4px;vertical-align:top}
+
+table.data3{background-color:#ECF3FA;border:1px solid #D6E9F4;line-height:14px}
+table.data3{font:11px Verdana,Arial,Helvetica,sans-serif}
+table.data3 .actions{color:#333;padding:3px;text-align:right}
+table.data3 .hd1{background-color: #2799DD;color:#333;font-size:11px;padding:6px;text-align:left}
+table.data3 .hd2{background-color:#DAEBFC;color:#333;padding:2px;text-align:left}
+table.data3 .hd3{color:#27618F;font-weight:bold;padding:2px;text-align:left}
+table.data3 .lite{background-color:#FDEDBB}
+table.data3 th{border:1px solid #fff;color:#27618F;margin:0;text-align:center;vertical-align:top}
+table.data3 tr{border:1px solid #fff;color:#000;margin:0;text-align:left;vertical-align:top}
+table.data3 tr td{border:1px solid #fff;padding:6px;vertical-align:top}
+table.data3 tr td .separator{background-color: #2799DD;height:4px;padding:0}
+
+/*********** FEATURES AND BENEFITS TABLE ***********/
+table.features{background-color:#ECF3FA;border:1px solid #D6E9F4;font:11px Verdana,Arial,Helvetica,sans-serif}
+table.features .data{padding:4px;vertical-align:top}
+table.features .description{color:#000}
+table.features .even{background-color:#FDEDBB}
+table.features .label{padding:4px;vertical-align:top}
+table.features .odd{background-color:#ECF3FA}
+table.features .separator{background-color:#2799DD;height:4px;padding:0}
+table.features .title{color:#27618F;font-weight:bold}
+table.features tr td{border:1px solid #fff}
+
+
+/*********** TABLE SELECTOR styles ***********/
+table.selector{
+	width:50%;
+	font-size:10px;
+	clear:both;
+	border:1px solid #DFDFDF;
+	margin:10px 0 5px 0;
+}
+table.selector th{ padding:4px; vertical-align:top;margin:0;}
+table.selector td{ padding:2px; vertical-align:middle;margin:0;}
+table.selector label{font-weight:normal;}
+table.selector .chkbx,table.selector table.options .chkbx{width:10px;padding:0 0 0 4px;}
+table.selector .chkbx_hd{width:10px;padding:0 0 0 4px;text-align:left;margin-bottom:10px; border-bottom: 3px double #eFeFDe;border-top: 3px double #eFeFDe;}
+table.selector input{ margin-top:2px;vertical-align:middle;}
+table.selector .hd1{text-align:left; border: 1px solid #fff;background-color:#eFeFDe;padding:4px;}
+table.selector table.options{ }
+table.selector table.options td{padding:4px;vertical-align:top;}
+table.selector .hd2{text-align:left;margin-bottom:10px; border-bottom: 3px double #eFeFDe;border-top: 3px double #eFeFDe;}
+
+/*********** TABLE PAGE TOOL styles ***********/
+table.tools{
+	
+	clear:both;
+	border:1px solid #DFDFDF;
+	margin:10px 0 5px 0;
+}
+table.tools th{ padding:4px; vertical-align:top;margin:0;}
+table.tools td{ padding:2px; vertical-align:top;margin:0;}
+table.tools label{font-weight:normal;}
+table.tools .chkbx,table.tools table.options .chkbx{width:10px;padding:0 0 0 4px;}
+table.tools .chkbx_hd{width:10px;padding:0 0 0 4px;text-align:left;margin-bottom:10px; border-bottom: 3px double #eFeFDe;border-top: 3px double #eFeFDe;}
+
+table.tools .hd1{text-align:left; border: 1px solid #fff;background-color:#eFeFDe;padding:4px;}
+table.tools table.options{ }
+table.tools table.options td{padding:4px;vertical-align:top;}
+table.tools .hd2{text-align:left;margin-bottom:10px; border-bottom: 3px double #eFeFDe;border-top: 3px double #eFeFDe;}
+
+
+
+
+/*********** PREVIOUS BUTTON -  styles ***********/
+
+a.prev_btn{
+	background:url(/media/system/cda/pruanninv/btn_previous.gif) top left no-repeat;
+	width:17px;
+	height:17px;
+	display:block;
+}
+
+a.next_btn{
+	background:url(/media/system/cda/pruanninv/btn_next.gif) top left no-repeat;
+	width:17px;
+	height:17px;
+	display:block;
+}
+a:hover.next_btn{
+	background:url(/media/system/cda/pruanninv/btn_next.gif) bottom left no-repeat;
+}
+a:hover.prev_btn{
+	background:url(/media/system/cda/pruanninv/btn_previous.gif) bottom left no-repeat;
+}
+
+
+/*********** STANDARD WHITE COMMAND BUTTON - styles ***********/
+.cmds {
+	clear: both;
+	width: 90%;
+}
+
+.cmd_btn {
+	display: block;
+	float: left;
+	padding: 10px 10px 10px 4px;
+}
+
+.cmd_btn .left {
+	background: url(/media/system/cda/pruanninv/btn_cmd_lt.gif) no-repeat top left;
+	float: left;
+	height: 19px;
+	margin: 0;
+	padding: 0;
+	width: 7px;
+}
+
+.cmd_btn a,.cmd_btn a:visited {
+	background: url(/media/system/cda/pruanninv/btn_cmd_mid.gif) repeat-x top left;
+	display: block;
+	float: left;
+	font-weight: bold;
+	height: 19px;
+	line-height: 15px;
+	text-decoration: none;
+}
+
+.cmd_btn .right {
+	background: url(/media/system/cda/pruanninv/btn_cmd_rt.gif) no-repeat top left;
+	float: left;
+	height: 19px;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	width: 8px;
+}
+
+/*********** STANDARD BLUE FORM BUTTON - styles ***********/
+.cmd_form_btn {
+	float: left;
+	padding: 10px 10px 10px 4px;
+}
+
+.cmd_form_btn .left {
+	background: url(/media/system/cda/pruanninv/btn_form_blue_left.gif) no-repeat top left;
+	float: left;
+	height: 23px;
+	width: 6px;
+}
+
+.cmd_form_btn a,.cmd_form_btn a:visited {
+	background: url(/media/system/cda/pruanninv/btn_form_blue_mid.gif) repeat-x top left;
+	color: #fff;
+	display: block;
+	float: left;
+	font-weight: bold;
+	height: 23px;
+	line-height: 19px;
+	text-decoration: none;
+}
+
+.cmd_form_btn a:hover {
+	color: #FF6;
+	text-decoration: none;
+}
+
+.cmd_form_btn .right {
+	background: url(/media/system/cda/pruanninv/btn_form_blue_right.gif) no-repeat top left;
+	float: left;
+	height: 23px;
+	width: 8px;
+}
+
+/*********** FAQ styles ***********/
+.faq_ul{width:98%;margin-bottom:20px;}
+.faq_ul ul{list-style:none outside; line-height:14px;margin:0;padding:0;}
+.faq_ul ul li{padding-top:6px;padding-bottom:6px;border-bottom:1px dotted #ccc;}
+.answers{margin:10px 0 10px 0;border-bottom: 3px double #eFeFDe;}
+.faq_answer{margin-bottom:20px;}
+.faq_answer h5{color:#ff0000;}
+.faq_answer h5 label{color:#205999;}
+.faq_answer p{margin-bottom:10px;}
+.faq_answer p p.answer_actions{margin:0px; padding:0;}
+
+/*********** PAGE TOOLS styles ***********/
+.pageTools{background:#F8F8F8;border:1px solid #D6E9F4;display:block;padding:10px}
+.pageTools h5{background:#ECF3FA;margin-left:6px;padding-left:6px;width:100%}
+
+/*********** RESULTS DISPLAY styles ***********/
+.searchresults{}
+.searchresults .actions{float:left;clear:both; vertical-align:middle; width:98%;padding:0 0 10px 0; font-weight:bold;}
+.searchresults .actions .left{float:left; width:70%;}
+.searchresults .actions .right{float:left; width:30%; text-align:right;}
+.searchresults .actions a{font-weight:normal;text-decoration:none;}
+.searchresults .summary{width:99%;margin:0 0 20px 0;border-bottom: 3px double #eFeFDe;border-top: 3px double #eFeFDe;}
+.namevalue{padding:4px 15px 8px 0; width:30%; line-height:15px;}
+
+.searchresults .resultsactions{padding:2px;width:98%;margin:2px 0 10px 0; font-weight:bold; background-color:#ecf3fa;border:1px solid #d6e9f4;}
+.searchresults .resultsactions .left,.searchresults .resultsactions .right{float:left;padding:5px;}
+.searchresults .resultsactions .left{ width:65%;}
+.searchresults .resultsactions .right{width:32%; text-align:right;}
+.searchresults .resultsactions a{font-weight:normal;text-decoration:none;}
+
+.searchresults .resultsGroup{
+	width:98%;
+	background-color:#fff;
+	border:none;
+	font-size:11px;
+	line-height:14px;
+	margin:0 0 10px 0;
+}
+.searchresults .resultsGroup .rowleft{padding:0 20px 0 0;}
+.searchresults .resultsGroup .rowright{float:right;}
+.rowright h5 {
+	font-size: 11px;
+	margin: 0px;
+	padding: 4px 0;
+	font-weight:normal;
+}
+
+.searchresults .resultsGroup .details{margin-top:12px;display:block;background:#f8f8f8; border:1px solid #d6e9f4;padding:10px;}
+.details .left {
+	float: left;
+	width: auto;
+	padding: 0 4px 0 0;
+}
+
+.details .right {
+	float: left;
+	padding: 0;
+}
+
+.details .clear {	clear: both; margin: 0 0 .5em 0; }
+.searchresults hr{clear:both;color:#D1E1F3; width:98%;border-width:thin; border-style:dotted;}
+
+.resultsGroup{
+	clear:both;
+	display:block;
+	border:1px solid #d6e9f4;
+	background-color:#ecf3fa;
+	font-size:11px;
+	line-height:14px;
+	padding:10px;
+}
+
+.superscript {
+position:relative; top:-3px; font-size:10px;
+}
+
+.resultsGroup .details{margin-top:6px;background:#fff; border:1px solid #d6e9f4;padding:5px;}
+
+.details .linkList{margin:8px 0 0 0;line-height:15px;}
+.details .linkList p{
+	clear:both;
+	width:95%;
+	margin:0 0 6px 0;
+	padding:0px 0px 0 8px;
+	background:url(/media/system/cda/pruanninv/icon_bullet.gif) no-repeat left top;
+}
+
+
+/*********** RESULTS DISPLAY styles ***********/
+#td1,#td2,#td3,#td4,#td5,#td6,#td7,#td8,#td9,#td10,#td11,#td12,#td13,#td14,#td15,#td15 { cursor: pointer; height: 26px; }
+.tab_off1,.tab_off2,.tab_off3,.tab_off4,.tab_off5,.tab_off6,.tab_off7,.tab_off8,.tab_off9,.tab_off10,.tab_off11,.tab_off12,.tab_off13,.tab_off14,.tab_off15 { background-color: #FFF; border-bottom: 1px solid #D1E1F3; padding: 2px 8px; text-align: center; }
+.tab_off { background-color: #FFF; border: 1px solid #D1E1F3; font: 12px Verdana,Arial,Helvetica,sans-serif; font-weight: bold; height: 25px; line-height: 17px; padding: 2px 8px; text-align: center; }
+.tab_hover { background-color: #AFCEF2; background-repeat: repeat-x; border: 1px solid #D1E1F3; font: 12px Verdana,Arial,Helvetica,sans-serif; font-weight: bold; height: 25px; line-height: 17px; padding: 2px 8px; text-align: center; }
+.tab_on { background-color: #F9FBFD; background-image: url(/media/system/cda/pruanninv/bg_tab.gif); background-repeat: repeat-x; border-left: 1px solid #D1E1F3; border-right: 1px solid #D1E1F3; border-top: 1px solid #D1E1F3; font: 12px Verdana,Arial,Helvetica,sans-serif; font-weight: bold; height: 30px; line-height: 17px; padding: 2px 8px; text-align: center; }
+.tab_spacer { background-color: #FFF; border-bottom: 1px solid #D1E1F3; width: 5px; }
+a.tab_off_link:visited,a.tab_off_link { color: #316DB8; font: 12px Verdana,Arial,Helvetica,sans-serif; font-weight: bold; line-height: 17px; text-decoration: none; }
+a.tab_off_link:hover { color: #FFF; font: 12px Verdana,Arial,Helvetica,sans-serif; font-weight: bold; line-height: 17px; text-decoration: none; }
+.tab_body { background-color: #F9FBFD; border-bottom: 1px solid #D1E1F3; border-left: 1px solid #D1E1F3; border-right: 1px solid #D1E1F3; }
+.tab_body tr td hr{color:#D1E1F3;border-width:thin; border-style:dotted;margin:0;padding:0;}
+.tab_body tr td h5{margin:0;padding:0;}
+
+#primary .cmd_btn a,#primary_span .cmd_btn a,#left .cmd_btn a,#left_span .cmds a{text-decoration:none;}
+#primary .cmd_btn a:visited,#primary_span .cmd_btn a:visited,#left .cmd_btn a:visited,#left_span .cmd_btn a:visited{text-decoration:none;}
+
+/*********** TABLE PRODUCT NOTIFICATION styles ***********/  
+table.prod_notification{border:none;clear:both;font:11px Verdana,Arial,Helvetica,sans-serif;line-height:14px;margin:0 0 15px 0;text-align:left;width:100%}
+table.prod_notification thead{background:#FF8040;color:#fff;font-weight:bold;padding:2px;vertical-align:middle}
+table.prod_notification th{padding:4px 8px 4px 8px}
+table.prod_notification td{background:#FF9;padding:8px;vertical-align:top}
+
+table.prod_notification2{border:1px solid #FFD78C;clear:both;font:11px Verdana,Arial,Helvetica,sans-serif;line-height:14px;margin:0 0 15px 0;text-align:left;width:100%}
+table.prod_notification2 thead{background:#FFFFDF;color:#000;font-weight:bold;padding:2px;vertical-align:middle}
+table.prod_notification2 th{padding:4px 8px 4px 8px}
+table.prod_notification2 td{background:#fff;padding:8px;vertical-align:top}
+
