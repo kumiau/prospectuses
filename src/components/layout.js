@@ -12,8 +12,8 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import "./pruAnnuities_inv.css"
 import "./inv_pruAnnuities_homepage.css"
-import externalLink from "../images/icn_NewWin_wht.png"
-import disclosure from "../images/PA-INV-IncomeCertaintyDisclosure.gif"
+// import externalLink from "../images/icn_NewWin_wht.png"
+// import disclosure from "../images/PA-INV-IncomeCertaintyDisclosure.gif"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -31,6 +31,7 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata.title} />
       <main>{children}</main>
       <footer>
+        {/*
         <div dir="ltr" align="center"><img alt="All references to income certainty and guarantees are backed by the claims-paying ability of the issuing company." src={disclosure} /></div>
         <br />
         <div dir="ltr" id="footer_nav">
@@ -55,6 +56,7 @@ const Layout = ({ children }) => {
             <img alt="opens in new window" src={externalLink} border="0" />
           </a>
         </div>
+        */}
       </footer>
     </div>
   )

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Prudential Annuities`,
-    description: `Prudential Annuities`,
+    title: `Annuities`,
+    description: `Annuities`,
     author: `@kumiau`,
   },
   plugins: [

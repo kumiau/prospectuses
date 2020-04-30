@@ -388,7 +388,7 @@ table.data th{border:1px solid #fff;color:#27618F;margin:0;text-align:center;ver
 table.data tr{border:1px solid #fff;color:#000;margin:0;text-align:left;vertical-align:top}
 table.data tr td{border:1px solid #fff;padding:6px;vertical-align:top}
 
-table.data2{border-bottom:1px solid #D6E9F4;font-size:11px;line-height:14px;padding:6px;table-layout:fixed}
+table.data2{border-bottom:1px solid #D6E9F4;font-size:11px;line-height:14px;table-layout:fixed}
 table.data2 .hd1{background-color:#fff;border-bottom:1px solid #D6E9F4;color:#333;font-size:11px;padding:6px 6px 6px 0;text-align:left}
 table.data2 .hd2{background-color: #2799DD;border:1px solid #fff;color:#fff;padding:2px;text-align:left}
 table.data2 .lite{background-color:#ECF3FA;border:1px solid #fff}
